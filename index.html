@@ -13,39 +13,47 @@
     <div class="container">
 
         <div class="sidebar">
-            <div>
+            <div class="sidebar-heading">
+                <img src="./images/view-dashboard.svg" alt="dashboard" class="icon">
                 <h1>Dashboard</h1>
             </div>
             <div class="nav">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Profile</a></li>
-                    <li><a href="">Messages</a></li>
-                    <li><a href="">History</a></li>
-                    <li><a href="">Tasks</a></li>
-                    <li><a href="">Communities</a></li>
+                    <li><img src="./images/home.svg" alt="home" class="icon"><a href="">Home</a></li>
+                    <li><img src="./images/card-account-details-outline.svg" alt="profile" class="icon"><a href="">Profile</a></li>
+                    <li><img src="./images/message.svg" alt="messages" class="icon"><a href="">Messages</a></li>
+                    <li><img src="./images/history.svg" alt="history" class="icon"><a href="">History</a></li>
+                    <li><img src="./images/file-document-multiple-outline.svg" alt="tasks" class="icon"><a href="">Tasks</a></li>
+                    <li><img src="./images/account-group.svg" alt="communities" class="icon"><a href="">Communities</a></li>
                 </ul>
                 <ul>
-                    <li><a href="">Settings</a></li>
-                    <li><a href="">Support</a></li>
-                    <li><a href="">Privacy</a></li>
+                    <li><img src="./images/cog.svg" alt="settings" class="icon"><a href="">Settings</a></li>
+                    <li><img src="./images/help-circle.svg" alt="support" class="icon"><a href="">Support</a></li>
+                    <li><img src="./images/shield-check.svg" alt="privacy" class="icon"><a href="">Privacy</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="header">
             <div class="search">
-                <label for="searchbar">search</label>
-                <input id="searchbar" name="searchbar" type="search" />
+                <label for="searchbar">
+                    <img class="icon black" src="./images/magnify.svg" alt="search">
+                </label>
+                <input id="searchbar" name="searchbar" type="search" placeholder="Search products"/>
             </div>
             <div class="profile">
-                <img src="" alt="">
+                <img class="icon black" src="./images/bell-ring.svg" alt="notifications">
+                <img class="user-avatar" src="./images/bm-icon.png" alt="user avatar">
                 <h2>User_Name</h2>
             </div>
             <div class="greeting">
-                <img src="" alt="">
-                <p>Hi there,</p>
-                <h1>User_Name (@user)</h1>                
+                <div>
+                    <img class="user-avatar" src="./images/bm-icon.png" alt="user avatar">
+                </div>
+                <div>
+                    <p>Hi there,</p>
+                    <h1>User_Name (@user)</h1>
+                </div>             
             </div>
             <div class="menu">
                 <button>New</button>
@@ -55,7 +63,117 @@
         </div>
 
         <div class="main-content">
-            <h2>Projects</h2>
+            <div class="projects">
+                <h2>Your Projects</h2>
+                <div class="projects-grid">
+                    <div>
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores assumenda odit temporibus aliquam amet cum!</p>
+                        <div class="project-btns">
+                            <img class="icon black" src="./images/star-plus-outline.svg" alt="favorite">
+                            <img class="icon black" src="./images/eye-plus-outline.svg" alt="watch">
+                            <img class="icon black" src="./images/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Less Cool Project</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque at molestiae ipsam voluptatum enim pariatur.</p>
+                        <div class="project-btns">
+                            <img class="icon black" src="./images/star-plus-outline.svg" alt="favorite">
+                            <img class="icon black" src="./images/eye-plus-outline.svg" alt="watch">
+                            <img class="icon black" src="./images/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Impossible App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, dolorem hic. Quibusdam voluptatem temporibus doloremque?</p>
+                        <div class="project-btns">
+                            <img class="icon black" src="./images/star-plus-outline.svg" alt="favorite">
+                            <img class="icon black" src="./images/eye-plus-outline.svg" alt="watch">
+                            <img class="icon black" src="./images/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Easy Peasy App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, cupiditate nam non velit quam tempore.</p>
+                        <div class="project-btns">
+                            <img class="icon black" src="./images/star-plus-outline.svg" alt="favorite">
+                            <img class="icon black" src="./images/eye-plus-outline.svg" alt="watch">
+                            <img class="icon black" src="./images/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Ad Blocker</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, fuga officia dolorem quis ratione esse.</p>
+                        <div class="project-btns">
+                            <img class="icon black" src="./images/star-plus-outline.svg" alt="favorite">
+                            <img class="icon black" src="./images/eye-plus-outline.svg" alt="watch">
+                            <img class="icon black" src="./images/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Money Maker</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel praesentium pariatur, aut ipsum at ratione.</p>
+                        <div class="project-btns">
+                            <img class="icon black" src="./images/star-plus-outline.svg" alt="favorite">
+                            <img class="icon black" src="./images/eye-plus-outline.svg" alt="watch">
+                            <img class="icon black" src="./images/share-variant.svg" alt="share">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="announcements-panel">
+                    <div>
+                        <h3>Site Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quibusdam praesentium ea, et perferendis quos.</p>
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <h3>Community Share Day</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quibusdam praesentium ea, et perferendis quos.</p>
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <h3>Updated Privacy Policy</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quibusdam praesentium ea, et perferendis quos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <h2>Trending</h2>
+                <div class="trending-panel">
+                    <div class="trendinguser">
+                        <img class="user-avatar" src="./images/bm-icon.png" alt="user icon">
+                        <div>
+                            <h3>@username</h3>
+                            <p>Trending Project</p>
+                        </div>
+                    </div>
+                    <div class="trendinguser">
+                        <img class="user-avatar"  src="./images/bm-icon.png" alt="user icon">
+                        <div>
+                            <h3>@username</h3>
+                            <p>Trending Project</p>
+                        </div>
+                    </div>
+                    <div class="trendinguser">
+                        <img class="user-avatar"  src="./images/bm-icon.png" alt="user icon">
+                        <div>
+                            <h3>@username</h3>
+                            <p>Trending Project</p>
+                        </div>
+                    </div>
+                    <div class="trendinguser">
+                        <img class="user-avatar"  src="./images/bm-icon.png" alt="user icon">
+                        <div>
+                            <h3>@username</h3>
+                            <p>Trending Project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
